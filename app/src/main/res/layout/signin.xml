@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/signin_form_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginStart="50dip"
+            android:layout_marginEnd="50dip"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext" />
+
+        <EditText
+            android:id="@+id/signin_form_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dip"
+            android:layout_marginEnd="50dip"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"/>
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="CREATE ACCOUNT" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="LOGIN" />
+    </LinearLayout>
+
+
+</RelativeLayout>
