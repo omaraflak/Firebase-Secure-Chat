@@ -24,8 +24,8 @@ That's it, you should be ready to code!
 
 # 'Features' in the app
 
-1) Create an account
-2) Automatic login when user already loged in
-3) Login with an existing account
-4) Chat room
-5) Logout
+    1) Create an account
+    2) Automatic login when user already loged in
+    3) Login with an existing account
+    4) Chat room
+    5) Logout
